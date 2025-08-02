@@ -1,0 +1,360 @@
+body{
+    margin: 0px 30px;
+    background-color:#4e5c73;
+}
+
+header{
+    background-color:gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+}
+
+.menu{
+    display: flex;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-grow: 1;
+}
+
+.menu-elements{
+    text-decoration: none;
+    color:black;
+    font-family: Georgia;
+    font-size: 18px;
+}
+
+.home{
+    text-decoration: none;
+    color:black;
+    font-family: Georgia;
+    font-size: 35px;
+}
+
+.menu-elements:hover{
+    border-bottom: 2px solid #011F3A;
+}
+
+table{
+    width:100%;
+}
+
+td{
+    width:150;
+    height:130;
+}
+
+main{
+    color:white; 
+}
+
+h1{
+    text-align: center;
+}
+
+.N1, h3{
+    font-size:24px;
+}
+
+p, a{
+    font-size:22px;  
+}
+
+footer{    
+    background-color:#8797b0;
+    margin: 20px 0px;
+    display: flex;
+    min-height: 300px;
+    padding: 40px 60px;
+    align-items: flex-start;
+    align-content: space-between;
+    column-gap: 40px;
+    flex-wrap: wrap;
+}
+
+li{
+    list-style: none;
+}
+
+.footer-menu{
+    display: flex;
+    padding: 10px 0px;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 20px;
+    flex: 1 0 0;
+    flex-wrap: wrap;
+}
+
+.all{
+    display: flex;
+    padding: 0px 38px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.footer-elements-first{
+    color: #000;
+    font-family: Readex Pro;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.5px; 
+    text-decoration: none;
+}
+
+.footer-elements{
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21.6px;
+    text-decoration: none;
+}
+
+.consult-1, .consult-2{
+    color:white;
+    font-size: 40px;
+    text-align: center;
+}
+
+input{
+    border-radius: 54px;
+    border: 3px solid #000;
+   
+    background: #DCE5E2;
+    width: 400px;
+    height: 75px;
+    padding: 16px 23px;
+    margin: auto;
+
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16.8px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.send{
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16.8px;
+
+    background: #97a5bd;
+    width: 350px;
+    height: 75px;
+    padding: 16px 23px;
+    margin: auto;
+}
+
+.send:hover{
+    background-color: #cbd3df;
+}
+
+.send:active{
+    background-color: #82b193;
+}
+
+.indiv-1{
+    display: flex;
+    color:#DCE5E2;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.indiv-2{
+    color:#DCE5E2;
+    font-size: 24px;
+}
+
+.indiv-3{
+    color: #DCE5E2;
+}
+
+.indiv-4{
+    color: #DCE5E2;
+    font-size: 22px;
+    margin: 30px;
+}
+
+.indiv-5{
+    display: flex;
+    width: 450px;
+    height: 75px;
+    margin: 0;
+}
+
+.indiv-6{
+    display: flex;
+    width: 450px;
+    height: 150px;
+    margin: 0;
+}
+
+.rev-1{
+    color: 000;
+    font-size: 22px;
+    background-color:#9ea4af;
+    margin-right: 90%;
+}
+
+.rev-2{
+    color: #DCE5E2;
+    margin: 21px;
+}
+
+.review{
+    background-color:#54575d ;
+    padding:20px 25px;
+    margin: 20px;
+}
+
+.mark-1{
+    color: #DCE5E2;
+    font-size: 35px;
+}
+
+ .rooms{
+    color: #DCE5E2;
+    font-size: 25px;
+    margin-top: 20px;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: space-around;
+} 
+
+.room{
+    color: #DCE5E2;
+    background-color: #2e3138;
+    margin: 5px 15px;
+    padding: 10px;
+    text-decoration: none;
+} 
+
+.room:hover{
+    background-color: #6b7283;
+    color: #000;
+}
+
+.card{
+    background-color: #3d4d67;
+    padding: 30px;
+    margin: 25px;
+}
+
+.text-card{
+    color: #DCE5E2;
+    font-family: Readex Pro;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.5px;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.price-card{
+    color: #ffffff;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21.6px;
+}
+
+.card-img{
+    width: 244px;
+    height: 214px;
+}
+
+.container-cards{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 72px;
+}
+
+.card:hover, .card-img:hover{
+    background-color: #5b739c;
+}
+
+.kitchen{
+    background-color: #6b7283;
+    color: #000;
+    margin: 5px 15px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.bathroom{
+    background-color: #6b7283;
+    color: #000;
+    margin: 5px 15px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.hall{
+    background-color: #6b7283;
+    color: #000;
+    margin: 5px 15px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.bedroom{
+    background-color: #6b7283;
+    color: #000;
+    margin: 5px 15px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.kidroom{
+    background-color: #6b7283;
+    color: #000;
+    margin: 5px 15px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.wardrobe{
+    background-color: #6b7283;
+    color: #000;
+    margin: 5px 15px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.office{
+    background-color: #6b7283;
+    color: #000;
+    margin: 5px 15px;
+    padding: 10px;
+    text-decoration: none;
+}
